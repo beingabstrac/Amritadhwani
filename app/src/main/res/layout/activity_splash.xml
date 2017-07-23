@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:src="@mipmap/logo_a"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            fontPath="fonts/Bariol_Regular.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25sp"
+            tools:ignore="MissingPrefix" />
+
+        <TextView
+            fontPath="fonts/Bariol_Regular.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5sp"
+            android:gravity="center"
+            android:lineSpacingExtra="2sp"
+            android:paddingLeft="25sp"
+            android:paddingRight="25sp"
+            android:text="@string/des"
+            android:textColor="#535353"
+            android:textSize="12sp"
+            tools:ignore="MissingPrefix" />
+
+    </LinearLayout>
+
+    <TextView
+        fontPath="fonts/Bariol_Regular.otf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/crafted_by_rishi_deep"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="10sp"
+        tools:ignore="MissingPrefix" />
+
+</RelativeLayout>

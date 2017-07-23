@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Amritadhwani</string>
+    <string name="des">Annual College Magazine of \n Amrita School of Engineering, Coimbatore</string>
+    <string name="crafted_by_rishi_deep">Crafted by Rishi Deep</string>
+    <string name="amritadhwani_2013">Amritadhwani\n2013</string>
+    <string name="amritadhwani_2014">Amritadhwani\n2014</string>
+    <string name="amritadhwani_2015">Amritadhwani\n2015</string>
+    <string name="amritadhwani_2016">Amritadhwani\n2016</string>
+    <string name="amritadhwani_2017">Amritadhwani\n2017</string>
+</resources>

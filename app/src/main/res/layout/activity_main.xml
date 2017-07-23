@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/a17"
+                android:layout_width="0dip"
+                android:layout_height="200sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="10sp"
+                android:layout_weight=".5"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription,RtlHardcoded"
+                tools:targetApi="lollipop" />
+
+            <ImageView
+                android:id="@+id/a16"
+                android:layout_width="0dip"
+                android:layout_height="200sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="10sp"
+                android:layout_weight=".5"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                fontPath="fonts/Bariol_Regular.otf"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_weight=".5"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:paddingBottom="5sp"
+                android:paddingTop="5sp"
+                android:text="@string/amritadhwani_2017"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix,RtlHardcoded" />
+
+            <TextView
+                fontPath="fonts/Bariol_Regular.otf"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_weight=".5"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:paddingBottom="5sp"
+                android:paddingTop="5sp"
+                android:text="@string/amritadhwani_2016"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/a15"
+                android:layout_width="0dip"
+                android:layout_height="200sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_weight=".5"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/a14"
+                android:layout_width="0dip"
+                android:layout_height="200sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_weight=".5"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                fontPath="fonts/Bariol_Regular.otf"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_weight=".5"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:paddingBottom="5sp"
+                android:paddingTop="5sp"
+                android:text="@string/amritadhwani_2015"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix,RtlHardcoded" />
+
+            <TextView
+                fontPath="fonts/Bariol_Regular.otf"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_weight=".5"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:paddingBottom="5sp"
+                android:paddingTop="5sp"
+                android:text="@string/amritadhwani_2014"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/a13"
+                android:layout_width="0dip"
+                android:layout_height="200sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_weight=".5"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:scaleType="centerCrop"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <ImageView
+                android:layout_width="0dip"
+                android:layout_height="200sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_marginTop="5sp"
+                android:layout_weight=".5"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                fontPath="fonts/Bariol_Regular.otf"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="5sp"
+                android:layout_weight=".5"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:paddingBottom="5sp"
+                android:paddingTop="5sp"
+                android:text="@string/amritadhwani_2013"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="MissingPrefix,RtlHardcoded" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="10sp"
+                android:layout_weight=".5"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
